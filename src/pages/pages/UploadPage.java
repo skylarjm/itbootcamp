@@ -22,10 +22,8 @@ public class UploadPage {
 	private static WebElement logInAndSignUp() {
 		return driver.findElement(By.xpath("//*[@id=\"maincontent\"]/div/p"));
 	}
+        //ACTIONS
 	public void clickOnUploadButton() {
 		uploadFiles().click();
-	}
-	public CharSequence getTextLogInAndSignUp() {
-		return logInAndSignUp().getText();
 	}
 }
